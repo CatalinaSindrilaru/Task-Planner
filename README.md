@@ -1,10 +1,10 @@
 Sindrilaru Catalina-Maria
-Grupa: 332CA
+Grupa: 332C
 
-               ALGORITMI PARALELI SI DISTRIBUITI
-       Tema #2 Planificarea de task-uri ı̂ntr-un datacenter
+# ALGORITMI PARALELI SI DISTRIBUITI
+# Tema 2 - Planificarea de task-uri ı̂ntr-un datacenter
 
----------------------------MyDispatcher---------------------------
+## MyDispatcher
 
 In cadrul acestei teme, am avut de implementat functionalitatile
 dispatcherului si a hosturilor. Astfel, am observat ca dispatcherul
@@ -27,7 +27,7 @@ timp ramas de rulat. Daca la un moment dat cozile sau timpul de rulare
 a doua hosturi era egal, l-am ales pe cel cu id-ul mai mic.
 
 
----------------------------MyHost-------------------------------------
+## MyHost
 
 Pentru a implementa coada unui host, asa cum se mentiona in cerinta, am
 ales sa folosesc o coada de tip 'PriorityBlockingQueue' pentru a nu exista
